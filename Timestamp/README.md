@@ -10,9 +10,10 @@ First Free Code Camp Back-End project.
 **Example Usage:**
 
 `https://timestamp-ms.herokuapp.com/December%2015,%202015`
+
 `https://timestamp-ms.herokuapp.com/1450137600`
 
-**Example output:**
+**Example Output:**
 
 `{ "unix": 1450137600, "natural": "December 15, 2015" }`
 
@@ -24,8 +25,8 @@ First Free Code Camp Back-End project.
 * express
 
 **Optional Modules**
-1. nodemon 
-   - Used for updating scripts without resetting server
+* nodemon 
+  - Used for updating scripts without resetting server
 
 **GET Requests**
 * Installation: [Postman](https://www.getpostman.com)
