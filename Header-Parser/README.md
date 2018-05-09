@@ -9,13 +9,12 @@ Second Free Code Camp Back-End project.
 
 **Example Usage:**
 
-`https://timestamp-ms.herokuapp.com/December%2015,%202015`
+`https://cryptic-ridge-9197.herokuapp.com/api/whoami/`
 
-`https://timestamp-ms.herokuapp.com/1450137600`
 
 **Example Output:**
 
-`{ "unix": 1450137600, "natural": "December 15, 2015" }`
+`{"ipaddress":"127.0.0.1","language":"en-US","software":"Windows NT 6.1; Win64; x64"}}`
 
 # Notes
 
@@ -23,11 +22,8 @@ Second Free Code Camp Back-End project.
 * body-parser
 * cors
 * express
+* os
 
-**Optional Modules**
-* nodemon 
-  - Used for updating scripts without resetting server
 
-**GET Requests**
-* Installation: [Postman](https://www.getpostman.com)
-* Usage: `localhost:3000/December%2015,%202015`
+**Misc Notes**
+* 127.0.0.1 IP Address commented out. Only required when running locally
